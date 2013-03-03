@@ -1,7 +1,7 @@
 {
   "author": "Jakob Borg <jakob@nym.se> (http://nym.se/)",
   "name": "ircbridged",
-  "description": "Bridges IRC to JSON-RPC over UDP.",
+  "description": "Bridges IRC to JSON-RPC over UDP (server component).",
   "version": "1.0.0",
   "homepage": "https://github.com/calmh/node-ircbridge/ircbridged",
   "repository": {
