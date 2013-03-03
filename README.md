@@ -111,3 +111,7 @@ The message events are in the form of `message` notifications with
 {"method":"message","params":["someNick","#channel","hi everyone"]}
 ```
 
+License
+-------
+
+MIT
