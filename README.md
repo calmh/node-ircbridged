@@ -32,6 +32,11 @@ You can talk to the bridge locally using nc. For example:
 {"method": "message", "params": ["#channel", "Hello World!"]}
 ```
 
+Client
+------
+
+There's a client library for Node.js in https://github.com/calmh/node-ircbridge.
+
 Commands
 --------
 
@@ -94,6 +99,10 @@ contains the channel name and the subscription duration in milliseconds.
 To continue receiving messages from the channel, the subscription needs
 to be renewed by sending a new `subscribe` command before the expiration
 time.
+
+```
+{"method": "subscribed", "params": ["#channel", 1800000]}
+```
 
 The message events are in the form of `message` notifications with
 `params` being `from`, `to` and `message`.
